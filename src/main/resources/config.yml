@@ -1,0 +1,61 @@
+COOLDOWN: 0
+DISABLE-KEY-DROPPING: false
+HOLOGRAM-TEXT:
+  - '%crate% Crate'
+  - ''
+  - '&7Right Click to Open.'
+  - '&7Left Click to see preview.'
+  - ''
+CHANCE-LORE:
+  - "&dChance: %<percentage>"
+CRATES:
+  Test:
+    KEY:
+      ITEM: TRIPWIRE_HOOK
+      NAME: '%type% Crate Key'
+      LORE:
+        - LOL
+      ENCHANTED: true
+    KNOCKBACK: 0.0
+    BROADCAST: false
+    FIREWORK: false
+    PREVIEW: true
+    BLOCK: CHEST
+    COLOR: DARK_RED
+    HOLOGRAM-ITEM: DIAMOND_SWORD
+    WINNINGS:
+      '1':
+        TYPE: ITEM
+        ITEM-TYPE: IRON_SWORD
+        ITEM-DATA: 0
+        NAME: '&6&lExample Sword2'
+        AMOUNT: 1
+        ENCHANTMENTS: []
+        LORE: []
+      '2':
+        TYPE: ITEM
+        ITEM-TYPE: IRON_SWORD
+        ITEM-DATA: 0
+        NAME: '&6&lExample Sword2'
+        AMOUNT: 1
+        ENCHANTMENTS: []
+        LORE: []
+        PERCENTAGE: 10
+      '3':
+        TYPE: ITEM
+        ITEM-TYPE: ENDER_PEARL
+        ITEM-DATA: 0
+        NAME: '&eEnderButt'
+        AMOUNT: 1
+        ENCHANTMENTS: []
+        LORE: []
+        PERCENTAGE: 10
+      '4':
+        TYPE: ITEM
+        ITEM-TYPE: FIREWORK
+        ITEM-DATA: 0
+        NAME: '&4Firework'
+        AMOUNT: 1
+        ENCHANTMENTS: []
+        LORE: []
+        PERCENTAGE: 10

@@ -1,0 +1,6 @@
+name: Crates
+main: me.fckml.crates.Crates
+author: Fckml
+version: 1.0
+softdepend:
+  - HolographicDisplays

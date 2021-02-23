@@ -1,0 +1,47 @@
+CONFIG-RELOADED: "&cConfiguration reloaded."
+
+NO-PERMISSION: "&cI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error."
+PLAYERS-ONLY: "&cPlayers-only"
+
+CRATE-COMMAND:
+  HELP:
+    - "&7&m-----------------------------------"
+    - "&b&lCrate Commands"
+    - ""
+    - "&f/crate claim"
+    - "&f/crate reload"
+    - "&f/crate settings"
+    - "&f/crate create <name>"
+    - "&f/crate delete <name>"
+    - "&f/crate rename <oldName> <newName>"
+    - "&f/crate key <all|player> <key> <amount>"
+    - "&f/crate setkey <crate>"
+    - "&f/crate hologramitem <crate>"
+    - "&7&m-----------------------------------"
+  ALREADY-EXISTS: "&c<name> crate already exists."
+  CREATED: "&f<name> &bcrate created."
+  NOT-EXISTS: "&c<name> crate not exists."
+  RENAMED: "&f<oldName> &brenamed to &f<newName>&b."
+  DELETED: "&f<name> &bcrate deleted."
+  INVALID-AMOUNT: "&cInvalid amount."
+  PLAYER-NOT-FOUND: "&f<name> &bplayer not found."
+  KEY-GIVE-ALL: "&bA key has been given to all players."
+  KEY-GIVE-PLAYER: "&bA key has been given to &f<name>&b."
+  ITEM-NOT-FOUND: "&cItem not found."
+  KEY-SET: "&f<name> &bcrate key set."
+  
+KEY-NOT-FOUND: "&cNo key found on <name> crate."  
+
+DO-CRATE-CLAIM: "&aDo /crate claim"
+
+RECEIVED-KEY: "&aYou have received a &6<crate> &acrate key."
+
+CRATE-COLOR-EDITED: "&aUpdated color, you may need to replace the crate for colors to update in holograms."
+CRATE-WINNINGS-UPDATED: "&aCrate winnings updated."
+CRATE-CRATES-WAITING: "&aYou currently have keys waiting to be claimed, use /crate to claim."
+CRATE-INVENTORY-FULL: "&eYour inventory is full, drop some items and try again."
+CRATE-COOLDOWN-MESSAGE: "&eYou can not open other crate for another <remaining> seconds."
+CRATE-NO-KEY-IN-HAND: "&cYou must be holding a <crate> key to open this crate."
+CRATE-CANT-DROP-KEY: "&cYou can not drop crate keys."
+CRATE-PLACE-KEY: "&cYou can not drop crate keys."
+CRATE-SNEAK-BREAK: "&cYou have to be sneaking to break a crate."
