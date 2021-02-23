@@ -41,7 +41,7 @@
             <systemPath>${project.basedir}/lib/SportPaper.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>com.battlehcf</groupId>
+            <groupId>com.filoghost</groupId>
             <artifactId>HolographicDisplays</artifactId>
             <version>1.0</version>
             <scope>system</scope>
